@@ -1,1 +1,4 @@
-export { default } from './inferno-ai';
+import InfernoAI from './inferno-ai';
+import './inferno-ai.scss';
+
+export default InfernoAI;
