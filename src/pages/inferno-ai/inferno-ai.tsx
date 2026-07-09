@@ -106,7 +106,8 @@ const InfernoAI = observer(() => {
 
     const handleSettings = useCallback(() => {
         console.log('Settings');
-    }, []);    return (
+    }, []);
+        return (
         <div className={`inferno-ai ${isDesktop ? 'inferno-ai--desktop' : 'inferno-ai--mobile'}`}>
             <AIHeader lastUpdated={lastUpdated} />
 
